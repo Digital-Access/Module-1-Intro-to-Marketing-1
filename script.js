@@ -1,6 +1,6 @@
 const config = {
     title: "Quick Knowledge Check!",
-    question: "Can you list the 8 strategic priorities below?",
+    question: "Can you list the 7 strategic priorities below?",
     input_tags: [
         "1.",
         "2.",
@@ -8,31 +8,28 @@ const config = {
         "4.",
         "5.",
         "6.",
-        "7.",
-        "8."
+        "7."
     ],
     text_answers: [
-        "Answer1",
-        "answer2",
-        "Answer3",
-        "Answer 4",
-        "answer5",
-        "Answer 6",
-        "Answer7",
-        "answer 8"
+        "Customer Oriented",
+        "Vendor Alignment",
+        "Solutions Portfolio",
+        "People",
+        "Execution Exellence",
+        "Data Driven",
+        "Digital First"
     ],
     image_answers: [
-        "https://a.storyblok.com/f/112136/446x446/cf944b253b/1.png",
-        "https://a.storyblok.com/f/112136/446x446/3ea9d4491c/2.png",
-        "https://a.storyblok.com/f/112136/446x446/1cadc0e6c3/3.png",
-        "https://a.storyblok.com/f/112136/446x446/0c7f465cc6/4.png",
-        "https://a.storyblok.com/f/112136/446x446/b13001024e/7.png",
-        "https://a.storyblok.com/f/112136/446x446/3a9b2b88c1/6.png",
-        "https://a.storyblok.com/f/112136/446x446/d4cf5fb7e5/5.png",
-        "https://a.storyblok.com/f/112136/446x446/189243343c/8.png"
+        "https://a.storyblok.com/f/112136/x/2e1208780c/customer-orientated.svg",
+        "https://a.storyblok.com/f/112136/x/4e5bd5570b/vendor-alignment.svg",
+        "https://a.storyblok.com/f/112136/x/5f314c84e0/solutions-portfolio.svg",
+        "https://a.storyblok.com/f/112136/x/4d04a811f0/execution-excellencce.svg",
+        "https://a.storyblok.com/f/112136/x/986d08efd5/data-driven.svg",
+        "https://a.storyblok.com/f/112136/x/fc44f2384a/digital-first.svg",
+        "https://a.storyblok.com/f/112136/x/60697c886d/people.svg"
     ],
-    header_img_on: false,
-    header_img:"https://a.storyblok.com/f/112136/130x160/731788149f/avatar_matt-owen.png"
+    header_img_on: true,
+    header_img:"https://a.storyblok.com/f/112136/576x544/34a0f96cf5/thinking-8.png"
 }
 
 const image = document.getElementById('image')
