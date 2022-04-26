@@ -1,5 +1,5 @@
 const config = {
-    title: "Quick Knowledge Check!",
+    title: "Quick knowledge check!",
     question: "Can you list the 7 strategic priorities below?",
     input_tags: [
         "1.",
