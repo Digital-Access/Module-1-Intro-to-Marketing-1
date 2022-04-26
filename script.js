@@ -15,7 +15,7 @@ const config = {
         "Vendor Alignment",
         "Solutions Portfolio",
         "People",
-        "Execution Exellence",
+        "Execution Excellence",
         "Data Driven",
         "Digital First"
     ],
