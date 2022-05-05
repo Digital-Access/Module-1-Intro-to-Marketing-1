@@ -85,6 +85,9 @@ answers.forEach(element => {
 
 const reveal = document.getElementById("revealAnswers")
 const tryAgain = document.getElementById("tryAgain")
+const instructions = document.getElementById("instructions")
+instructions.textContent =  "Click next video to proceed."
+instructions.style.display = 'none'
 
 reveal.addEventListener('click', () => {
     reveal.style.display = 'none';
@@ -99,10 +102,12 @@ reveal.addEventListener('click', () => {
         if (lowerAnswers.includes(userAnswer)) {
             element.className = 'inputCorrect'
             element.style.pointerEvents = 'none'
+            instructions.style.display = 'flex'
         } else {
             element.className = 'inputIncorrect'
             element.style.pointerEvents = 'none'
             tryAgain.style.display = 'flex';
+            instructions.style.display = 'flex'
         }
     });
 })
