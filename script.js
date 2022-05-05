@@ -88,7 +88,6 @@ const tryAgain = document.getElementById("tryAgain")
 
 reveal.addEventListener('click', () => {
     reveal.style.display = 'none';
-    tryAgain.style.display = 'flex';
     checkContainer.style.display = 'flex';
     const inputs = document.querySelectorAll('.input')
     const lowerAnswers = config.text_answers.map(element => {
@@ -103,6 +102,7 @@ reveal.addEventListener('click', () => {
         } else {
             element.className = 'inputIncorrect'
             element.style.pointerEvents = 'none'
+            tryAgain.style.display = 'flex';
         }
     });
 })
