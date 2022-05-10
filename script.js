@@ -112,6 +112,22 @@ reveal.addEventListener('click', () => {
     });
 })
 
+const mainContainer = document.getElementById("mainContainer");
+const endContainer =  document.getElementById("celebrationContainer");
+const endImage = document.getElementById("celebration");
+const endMessage = document.getElementById("thankYou");
+
+endContainer.style.display = 'none'
+endMessage.textContent = "Well done! Click the \"Next Video\" button to proceed now."
+endImage.src = 'https://a.storyblok.com/f/112136/205x150/12867bb205/sporting-hero.png'
+
+const endScreen = () => {
+    endContainer.style.display = 'flex';
+    mainContainer.style.display = 'none';
+}
+
+proceed.addEventListener('click', endScreen)
+
 tryAgain.addEventListener('click', () => {
     window.location.reload()
 })
