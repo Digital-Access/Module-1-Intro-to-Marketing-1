@@ -83,6 +83,7 @@ answers.forEach(element => {
     k++
 })
 
+const proceed = document.getElementById("proceed")
 const reveal = document.getElementById("revealAnswers")
 const tryAgain = document.getElementById("tryAgain")
 const instructions = document.getElementById("instructions")
