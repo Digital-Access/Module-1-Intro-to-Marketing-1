@@ -150,7 +150,50 @@ body{
     cursor: pointer;
 }
 
+.proceed{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: #25517B;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+}
 
+.proceed:hover{
+    background-color: #A6529A;
+    color: white;
+    cursor: pointer;
+}
+
+.celebration {
+    width: auto;
+    height: 10rem;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+}
+
+.celebrationContainer {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    animation: slide-up 2s forwards;
+}
+
+.thankYou {
+    width: 78%;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.image {
+    max-height: 8rem;
+    margin-right: 2rem;
+}
 
 @media (max-width: 420px) {
     .openContainer{
